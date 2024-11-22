@@ -1,0 +1,45 @@
+<LXFML versionMajor="7" versionMinor="0" versionPatch="0" name="HATSTUFF">
+  <Meta>
+    <Application name="LDraw Converter" versionMajor="2.24.9" versionMinor="2" />
+  </Meta>
+  <Cameras>
+    <Camera refID="0" orthographic="False" fieldOfView="24.6781730652" distance="47.0638" transformation="0.988530,0.000000,-0.151000,-0.055060,0.931140,-0.360470,0.140610,0.364660,0.920470,7.518321,18.057510,43.608560" />
+    <Camera refID="1" orthographic="False" fieldOfView="24.6781730652" distance="41.98536" transformation="0.672390,0.000000,-0.740200,-0.398140,0.843020,-0.361670,0.624000,0.537880,0.566840,26.598870,23.704510,22.598870" />
+  </Cameras>
+  <Bricks cameraRef="0">
+    <Brick refID="0" designID="2528" uuid="c74d97b0-1eae-257e-44aa-9d5bade97baf">
+      <Part refID="0" designID="2528" partType="rigid" materials="371:0">
+        <Bone refID="0" transformation="0.4305116,0,-0.902585,0,1,0,0.902585,0,0.4305116,0.3999999,0.64,-1.2" />
+      </Part>
+    </Brick>
+    <Brick refID="1" designID="88490" uuid="a5bfc9e0-7964-f8dd-deb9-5fc584cd965d">
+      <Part refID="1" designID="88490" partType="rigid" materials="154:0">
+        <Bone refID="1" transformation="0.5519373,0,-0.8338856,0,1,0,0.8338856,0,0.5519373,0.1373881,1.1425,-0.6494228" />
+      </Part>
+    </Brick>
+  </Bricks>
+  <GroupSystems>
+    <BrickGroupSystem name="BOMBags" isHierarchical="true" isUnique="true">
+      <Group refID="1" brickRefs="0,1" />
+    </BrickGroupSystem>
+    <BrickGroupSystem isHierarchical="true" isUnique="true">
+      <Group refID="2" transformation="1,0,0,0,1,0,0,0,1,0,0,0" pivot="0,0,0" brickRefs="0,1" />
+    </BrickGroupSystem>
+  </GroupSystems>
+  <Configurations>
+    <Configuration type="design">
+      <Build uuid="c768b3f0-ccc5-3ea1-c319-cf5f8b903f34" name="HATSTUFF">
+        <Brick brickRef="c74d97b0-1eae-257e-44aa-9d5bade97baf" />
+        <Brick brickRef="a5bfc9e0-7964-f8dd-deb9-5fc584cd965d" />
+      </Build>
+    </Configuration>
+  </Configurations>
+  <BuildingInstruction>
+    <Steps rotation="0,-90,0">
+      <Step refID="0" cameraType="standard" rotation="0,-90,0" pivot="0.4,1.12125,-1.2">
+        <In brickRef="0" />
+        <In brickRef="1" />
+      </Step>
+    </Steps>
+  </BuildingInstruction>
+</LXFML>

@@ -1,0 +1,38 @@
+<LXFML versionMajor="7" versionMinor="0" versionPatch="0" name="HATSTUFF">
+  <Meta>
+    <Application name="LDraw Converter" versionMajor="2.24.9" versionMinor="2" />
+  </Meta>
+  <Cameras>
+    <Camera refID="0" orthographic="False" fieldOfView="24.6781730652" distance="56.81211" transformation="0.914920,0.000000,0.403640,0.188650,0.884060,-0.427610,-0.356840,0.467370,0.808840,-20.348900,27.340480,46.401780" />
+    <Camera refID="1" orthographic="False" fieldOfView="24.6781730652" distance="43.75948" transformation="0.754060,0.000000,-0.656800,-0.350320,0.845880,-0.402200,0.555580,0.533370,0.637850,22.711800,24.360090,28.711800" />
+  </Cameras>
+  <Bricks cameraRef="0">
+    <Brick refID="0" designID="36036" uuid="9a115815-4dfa-42ca-ddbd-0694a4e9bdc8" itemNos="6231900">
+      <Part refID="0" designID="36036" partType="rigid" materials="1:0">
+        <Bone refID="0" transformation="1,0,0,0,1,0,0,0,1,-2,-1.192093E-07,1.2" />
+      </Part>
+    </Brick>
+  </Bricks>
+  <GroupSystems>
+    <BrickGroupSystem name="BOMBags" isHierarchical="true" isUnique="true">
+      <Group refID="1" brickRefs="0" />
+    </BrickGroupSystem>
+    <BrickGroupSystem isHierarchical="true" isUnique="true">
+      <Group refID="2" transformation="1,0,0,0,1,0,0,0,1,0,0,0" pivot="0,0,0" brickRefs="0" />
+    </BrickGroupSystem>
+  </GroupSystems>
+  <Configurations>
+    <Configuration type="design">
+      <Build uuid="c768b3f0-ccc5-3ea1-c319-cf5f8b903f34" name="HATSTUFF">
+        <Brick brickRef="9a115815-4dfa-42ca-ddbd-0694a4e9bdc8" />
+      </Build>
+    </Configuration>
+  </Configurations>
+  <BuildingInstruction>
+    <Steps rotation="0,-90,0">
+      <Step refID="0" cameraType="standard" rotation="0,-90,0" pivot="-1.6,1.02,0.8">
+        <In brickRef="0" />
+      </Step>
+    </Steps>
+  </BuildingInstruction>
+</LXFML>
