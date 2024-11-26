@@ -457,7 +457,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -763531442734570216}
+  m_Motion: {fileID: 0}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -3670,75 +3670,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 2
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!206 &-763531442734570216
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Locomotion
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 1827226128182048838, guid: 44598b98adbda4baaa34694249d1435b,
-      type: 3}
-    m_Threshold: -8
-    m_Position: {x: 0, y: -8}
-    m_TimeScale: 2
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Speed
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 1827226128182048838, guid: 44598b98adbda4baaa34694249d1435b,
-      type: 3}
-    m_Threshold: -4
-    m_Position: {x: 0, y: -4}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Speed
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 1827226128182048838, guid: 851f67277607149c5b6d475384020033,
-      type: 3}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Speed
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 1827226128182048838, guid: b78a698a238bc4250a9063e3b87eb03c,
-      type: 3}
-    m_Threshold: 5
-    m_Position: {x: 0, y: 5}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Speed
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 1827226128182048838, guid: a027f6f1a85184a6ab8deaecc046a8be,
-      type: 3}
-    m_Threshold: 15
-    m_Position: {x: 0, y: 15}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Speed
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 1827226128182048838, guid: a027f6f1a85184a6ab8deaecc046a8be,
-      type: 3}
-    m_Threshold: 30
-    m_Position: {x: -0.8, y: 30}
-    m_TimeScale: 2
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Speed
-    m_Mirror: 0
-  m_BlendParameter: Speed
-  m_BlendParameterY: Speed
-  m_MinThreshold: -8
-  m_MaxThreshold: 30
-  m_UseAutomaticThresholds: 0
-  m_NormalizedBlendValues: 0
-  m_BlendType: 0
 --- !u!1109 &-641938211466884823
 AnimatorTransition:
   m_ObjectHideFlags: 1

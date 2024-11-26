@@ -1,13 +1,13 @@
-<LXFML versionMajor="7" versionMinor="0" versionPatch="0" name="HATSTUFF">
+<LXFML versionMajor="7" versionMinor="0" versionPatch="0" name="UntitledModel">
   <Meta>
     <Application name="LDraw Converter" versionMajor="2.24.9" versionMinor="2" />
   </Meta>
   <Cameras>
-    <Camera refID="0" orthographic="False" fieldOfView="24.6781730652" distance="56.81211" transformation="0.914920,0.000000,0.403640,0.188650,0.884060,-0.427610,-0.356840,0.467370,0.808840,-20.348900,27.340480,46.401780" />
+    <Camera refID="0" orthographic="False" fieldOfView="24.6781730652" distance="79.99999" transformation="1.000000,0.000000,0.000000,0.000000,0.764840,-0.644220,0.000000,0.644220,0.764840,-0.000005,51.537410,61.187370" />
     <Camera refID="1" orthographic="False" fieldOfView="24.6781730652" distance="43.75948" transformation="0.754060,0.000000,-0.656800,-0.350320,0.845880,-0.402200,0.555580,0.533370,0.637850,22.711800,24.360090,28.711800" />
   </Cameras>
   <Bricks cameraRef="0">
-    <Brick refID="0" designID="36036" uuid="9a115815-4dfa-42ca-ddbd-0694a4e9bdc8" itemNos="6231900">
+    <Brick refID="0" designID="36036" uuid="c4ca4238-a0b9-2382-0dcc-509a6f75849b" itemNos="6231900">
       <Part refID="0" designID="36036" partType="rigid" materials="1:0">
         <Bone refID="0" transformation="1,0,0,0,1,0,0,0,1,-2,-1.192093E-07,1.2" />
       </Part>
@@ -23,8 +23,8 @@
   </GroupSystems>
   <Configurations>
     <Configuration type="design">
-      <Build uuid="c768b3f0-ccc5-3ea1-c319-cf5f8b903f34" name="HATSTUFF">
-        <Brick brickRef="9a115815-4dfa-42ca-ddbd-0694a4e9bdc8" />
+      <Build uuid="eced6285-66cf-1e4d-3b82-566a8f1e9770" name="UntitledModel">
+        <Brick brickRef="c4ca4238-a0b9-2382-0dcc-509a6f75849b" />
       </Build>
     </Configuration>
   </Configurations>
