@@ -2265,8 +2265,8 @@ GameObject:
   - component: {fileID: 1124210594113636093}
   - component: {fileID: 3869459977459705703}
   - component: {fileID: 7329213729564410731}
-  - component: {fileID: 877783959184745889}
   - component: {fileID: 7318829681726398995}
+  - component: {fileID: 877783959184745889}
   - component: {fileID: 7938548103735267385}
   - component: {fileID: 4873685052759641958}
   - component: {fileID: 8780688240398220916}
@@ -2307,7 +2307,7 @@ Animator:
   m_GameObject: {fileID: 4673037979996152972}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 227b2f761b089ed4db2c5a40b70d7c99, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2344,44 +2344,6 @@ CharacterController:
   m_SkinWidth: 0.01
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 2.05, z: -0.12}
---- !u!114 &877783959184745889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4673037979996152972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90d663a07db5a4612b5bb66315af644c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headAccessoryLocator: {fileID: 0}
-  torsoBackGeometry: {fileID: 0}
-  torsoFrontGeometry: {fileID: 0}
-  torsoGeometry: {fileID: 0}
-  armsGeometry:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  handsGeometry:
-  - {fileID: 0}
-  - {fileID: 0}
-  legsGeometry:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  headGeometry: {fileID: 0}
-  faceGeometry: {fileID: 0}
 --- !u!82 &7318829681726398995
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2478,6 +2440,44 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &877783959184745889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4673037979996152972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d663a07db5a4612b5bb66315af644c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headAccessoryLocator: {fileID: 0}
+  torsoBackGeometry: {fileID: 0}
+  torsoFrontGeometry: {fileID: 0}
+  torsoGeometry: {fileID: 0}
+  armsGeometry:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handsGeometry:
+  - {fileID: 0}
+  - {fileID: 0}
+  legsGeometry:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  headGeometry: {fileID: 0}
+  faceGeometry: {fileID: 0}
 --- !u!114 &7938548103735267385
 MonoBehaviour:
   m_ObjectHideFlags: 0

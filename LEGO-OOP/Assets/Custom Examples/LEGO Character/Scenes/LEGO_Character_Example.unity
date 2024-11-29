@@ -467,12 +467,6 @@ Transform:
   - {fileID: 559173310}
   m_Father: {fileID: 1583738738}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &49007032 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2933966177634658867, guid: 62d27db98dd8445ed9712bc0522caaf0,
-    type: 3}
-  m_PrefabInstance: {fileID: 778948835}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &49007033 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 703449490840833377, guid: 62d27db98dd8445ed9712bc0522caaf0,
@@ -1610,8 +1604,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148788009}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9c7f6d66eb6ca4070bd0108867e6ab5e, type: 3}
-  m_Controller: {fileID: 9100000, guid: b34fbd409026345a896ed54494bd6bb4, type: 2}
+  m_Avatar: {fileID: 9000000, guid: 15657c257cb794970bed031ec7e121c1, type: 3}
+  m_Controller: {fileID: 9100000, guid: 5a9fe5edc788069479d1242efb653c5a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1705,63 +1699,6 @@ Transform:
   - {fileID: 1772505415}
   m_Father: {fileID: 1793296490}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &163162241
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 163162242}
-  - component: {fileID: 163162244}
-  - component: {fileID: 163162243}
-  m_Layer: 0
-  m_Name: LEGOLipsync
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &163162242
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163162241}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1736517077}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &163162243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163162241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b55544c68405a2d479d670a799a2cc1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &163162244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163162241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d46f009712ed154c9c994bdae7fd791, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &163396033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6559,8 +6496,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704262044}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9c7f6d66eb6ca4070bd0108867e6ab5e, type: 3}
-  m_Controller: {fileID: 9100000, guid: b34fbd409026345a896ed54494bd6bb4, type: 2}
+  m_Avatar: {fileID: 9000000, guid: 15657c257cb794970bed031ec7e121c1, type: 3}
+  m_Controller: {fileID: 9100000, guid: 5a9fe5edc788069479d1242efb653c5a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8808,12 +8745,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1739179872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &935007503 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2933966177634658867, guid: 62d27db98dd8445ed9712bc0522caaf0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1485471164}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &935007507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 703449490840833377, guid: 62d27db98dd8445ed9712bc0522caaf0,
@@ -10095,7 +10026,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 19ab9b835b14948d6a5af628af384304, type: 2}
+  - {fileID: 2100000, guid: 105baa30f94044df393591356af16add, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10833,7 +10764,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 19ab9b835b14948d6a5af628af384304, type: 2}
+  - {fileID: 2100000, guid: 697202dccf18243fe8c46e0a716260df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14122,7 +14053,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 19ab9b835b14948d6a5af628af384304, type: 2}
+  - {fileID: 2100000, guid: 3310f77ecefef4191974cc7502afd98e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15631,7 +15562,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1736517077}
   - component: {fileID: 1736517076}
-  - component: {fileID: 1736517075}
   m_Layer: 0
   m_Name: Mary Character (Human Ani) With Dress
   m_TagString: Untagged
@@ -15639,24 +15569,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1736517075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736517074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf7f6e9256fd74e62bdf6203c2dd5ff9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToAttach: {fileID: 49007032}
-  handTag: RightHand
-  attachDistance: 1
-  attachDuringAnimation: 1
-  positionOffset: {x: -0.19, y: 0.09, z: -0.01}
-  rotationOverride: {x: 0, y: 90, z: 4.72}
 --- !u!95 &1736517076
 Animator:
   serializedVersion: 5
@@ -15666,8 +15578,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736517074}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 50c00abfff253419a97df5005b7074ee, type: 3}
-  m_Controller: {fileID: 9100000, guid: 01a136d1f656642a6a850032950001ad, type: 2}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b34fbd409026345a896ed54494bd6bb4, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -15691,7 +15603,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 163162242}
   - {fileID: 1139679225}
   - {fileID: 1189012003}
   m_Father: {fileID: 0}
@@ -19832,63 +19743,6 @@ Transform:
   - {fileID: 1146229553183040098}
   m_Father: {fileID: 3709482769401957016}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1178951834346493096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178951834346493099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d46f009712ed154c9c994bdae7fd791, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1178951834346493097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178951834346493099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b55544c68405a2d479d670a799a2cc1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1178951834346493098
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178951834346493099}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 3492745057748221103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1178951834346493099
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1178951834346493098}
-  - component: {fileID: 1178951834346493096}
-  - component: {fileID: 1178951834346493097}
-  m_Layer: 0
-  m_Name: LEGOLipsync
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1183873698523920190
 GameObject:
   m_ObjectHideFlags: 0
@@ -20059,7 +19913,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3492745057748221103}
   - component: {fileID: 6418027591445238386}
-  - component: {fileID: 6418027591445238387}
   m_Layer: 0
   m_Name: James Character (Human Ani) With Tool
   m_TagString: Untagged
@@ -21417,7 +21270,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1178951834346493098}
   - {fileID: 6784408067196862104}
   - {fileID: 2438077285097813390}
   m_Father: {fileID: 0}
@@ -22416,7 +22268,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 19ab9b835b14948d6a5af628af384304, type: 2}
+  - {fileID: 2100000, guid: 924c5b680edaa4b659816bd97605d2f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23227,8 +23079,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557775604144586701}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 50c00abfff253419a97df5005b7074ee, type: 3}
-  m_Controller: {fileID: 9100000, guid: 01a136d1f656642a6a850032950001ad, type: 2}
+  m_Avatar: {fileID: 9000000, guid: 15657c257cb794970bed031ec7e121c1, type: 3}
+  m_Controller: {fileID: 9100000, guid: 5a9fe5edc788069479d1242efb653c5a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -23239,24 +23091,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6418027591445238387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557775604144586701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf7f6e9256fd74e62bdf6203c2dd5ff9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToAttach: {fileID: 935007503}
-  handTag: RightHand
-  attachDistance: 1
-  attachDuringAnimation: 1
-  positionOffset: {x: 0, y: 0, z: 0}
-  rotationOverride: {x: 0, y: 0, z: 0}
 --- !u!4 &6450877742719063558
 Transform:
   m_ObjectHideFlags: 0

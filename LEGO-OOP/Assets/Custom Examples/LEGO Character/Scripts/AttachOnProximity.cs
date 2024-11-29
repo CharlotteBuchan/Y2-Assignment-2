@@ -38,7 +38,7 @@ public class AttachOnProximity : MonoBehaviour
         {
             //AttachToHand(hand.gameObject);
             
-            Debug.Log("Hand found with tag!");
+            //Debug.Log("Hand found with tag!");
             
              // Check distance between the object and the hand
             float distance = Vector3.Distance(hand.position, objectToAttach.transform.position);
@@ -46,27 +46,27 @@ public class AttachOnProximity : MonoBehaviour
             // Check if animation is playing (if required)
             bool isPlaying = animator != null && animator.GetCurrentAnimatorStateInfo(0).length > 0;
 
-            Debug.Log($"Distance to hand: {distance}");
+            //Debug.Log($"Distance to hand: {distance}");
 
             if (distance <= attachDistance)
             {
             // Attach the object if conditions are met
-            Debug.Log("Within attach distance!");
+            //Debug.Log("Within attach distance!");
 
             if (!attachDuringAnimation || isPlaying)
                 {
-                    Debug.Log("Within attach distance!");
+                    //Debug.Log("Within attach distance!");
                     AttachToHand(hand.gameObject);
                 }
                 else {
-                     Debug.Log("Within attach distance!");
+                     //Debug.Log("Within attach distance!");
                      AttachToHand(hand.gameObject);
                 }
             }
         }
         else
         {
-            Debug.Log("No hand found with tag.");
+            //Debug.Log("No hand found with tag.");
         }
 
     }
@@ -120,7 +120,7 @@ public class AttachOnProximity : MonoBehaviour
         objectToAttach.transform.localPosition = positionOffset;
         objectToAttach.transform.localRotation = Quaternion.Euler(rotationOverride) * hand.transform.localRotation;
 
-        Debug.Log($"{objectToAttach.name} attached to {hand.name} with position offset {positionOffset} and rotation override {rotationOverride}");
+        //Debug.Log($"{objectToAttach.name} attached to {hand.name} with position offset {positionOffset} and rotation override {rotationOverride}");
     }
 
       // Method to save offsets during play mode (called from the editor script)
@@ -130,11 +130,11 @@ public class AttachOnProximity : MonoBehaviour
         {
             positionOffset = objectToAttach.transform.localPosition;
             rotationOverride = objectToAttach.transform.localRotation.eulerAngles;
-            Debug.Log($"Offsets saved: Position = {positionOffset}, Rotation = {rotationOverride}");
+            //Debug.Log($"Offsets saved: Position = {positionOffset}, Rotation = {rotationOverride}");
         }
         else
         {
-            Debug.LogWarning("No object assigned to 'objectToAttach' to save offsets.");
+            //Debug.LogWarning("No object assigned to 'objectToAttach' to save offsets.");
         }
     }
 }

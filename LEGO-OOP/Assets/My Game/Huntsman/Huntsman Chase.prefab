@@ -2648,7 +2648,6 @@ GameObject:
   - component: {fileID: 8512508293224461654}
   - component: {fileID: 2403219947654960269}
   - component: {fileID: 2545235924433215727}
-  - component: {fileID: 7444165994587255519}
   - component: {fileID: 5511285588674262194}
   m_Layer: 9
   m_Name: Huntsman Chase
@@ -2665,7 +2664,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3641894673499355583}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9907667, z: -0, w: -0.13557799}
+  m_LocalRotation: {x: -0, y: -0.9907668, z: 0, w: -0.13557723}
   m_LocalPosition: {x: 117.1, y: 32.71, z: 558.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2684,7 +2683,7 @@ Animator:
   m_GameObject: {fileID: 3641894673499355583}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 603f53c8af044c44eaef303df2ce2d78, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2929,24 +2928,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onlyActiveGameObject: 0
   hideChildren: 1
---- !u!320 &7444165994587255519
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3641894673499355583}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 004dddcab4a10244dab7b9772b9c10f3, type: 2}
-  m_InitialState: 0
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings: []
-  m_ExposedReferences:
-    m_References:
-    - 2ca8d3bbb9c930c4aaaaeed35641a33c: {fileID: 0}
 --- !u!114 &5511285588674262194
 MonoBehaviour:
   m_ObjectHideFlags: 0
