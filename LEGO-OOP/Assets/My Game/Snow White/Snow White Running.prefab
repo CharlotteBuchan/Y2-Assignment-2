@@ -2264,11 +2264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124210594113636093}
   - component: {fileID: 3869459977459705703}
-  - component: {fileID: 7329213729564410731}
   - component: {fileID: 7318829681726398995}
-  - component: {fileID: 877783959184745889}
-  - component: {fileID: 7938548103735267385}
-  - component: {fileID: 4873685052759641958}
   - component: {fileID: 8780688240398220916}
   - component: {fileID: 7629212486561787824}
   - component: {fileID: 8263736723668083195}
@@ -2318,32 +2314,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!143 &7329213729564410731
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4673037979996152972}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Height: 5
-  m_Radius: 0.8
-  m_SlopeLimit: 45
-  m_StepOffset: 1.3
-  m_SkinWidth: 0.01
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 2.05, z: -0.12}
 --- !u!82 &7318829681726398995
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2351,7 +2321,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4673037979996152972}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -2440,68 +2410,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &877783959184745889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4673037979996152972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90d663a07db5a4612b5bb66315af644c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headAccessoryLocator: {fileID: 0}
-  torsoBackGeometry: {fileID: 0}
-  torsoFrontGeometry: {fileID: 0}
-  torsoGeometry: {fileID: 0}
-  armsGeometry:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  handsGeometry:
-  - {fileID: 0}
-  - {fileID: 0}
-  legsGeometry:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  headGeometry: {fileID: 0}
-  faceGeometry: {fileID: 0}
---- !u!114 &7938548103735267385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4673037979996152972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a531e05301d84432885d06beab7c5aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4873685052759641958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4673037979996152972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64cdf5b8403534b7cad3e882ef1d1e30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8780688240398220916
 MonoBehaviour:
   m_ObjectHideFlags: 10
@@ -5998,7 +5906,8 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8822157089168211766, guid: 015e16c28e8bc47988e06e82e80822d5, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 015e16c28e8bc47988e06e82e80822d5, type: 3}

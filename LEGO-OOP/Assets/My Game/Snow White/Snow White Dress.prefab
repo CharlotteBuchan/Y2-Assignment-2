@@ -1812,7 +1812,7 @@ MonoBehaviour:
   explodeAudioClip: {fileID: 8300000, guid: b9b607b06267c4394b07c19523c455f1, type: 3}
   inputType: 1
   inputEnabled: 1
-  maxJumpsInAir: 1
+  maxJumpsInAir: 2
   leftArmTip: {fileID: 3577471381715150466}
   rightArmTip: {fileID: 7041727340533295837}
   leftLegTip: {fileID: 981057718711235661}
@@ -6035,7 +6035,8 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8822157089168211766, guid: 015e16c28e8bc47988e06e82e80822d5, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 015e16c28e8bc47988e06e82e80822d5, type: 3}
