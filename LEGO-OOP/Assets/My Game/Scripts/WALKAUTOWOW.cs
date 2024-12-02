@@ -89,13 +89,12 @@ public class WALKAUTOWOW : MonoBehaviour
             {
                 newPosX = -41 - xOffset;  // Smoothly move left from the middle
                 m_Side = SIDE.Left;
-                Debug.Log("SIDE LEFT: Current Position: " + transform.position + " newPosX: " + newPosX);
             }
             else if (m_Side == SIDE.Right)
             {
                 newPosX = -41;  // Move back to middle (Mid)
                 m_Side = SIDE.Mid;
-                Debug.Log("SIDE MID: Current Position: " + transform.position + " newPosX: " + newPosX);
+                
             }
 
             nextTimeToStrafe = Time.time + strafeRate;
@@ -106,13 +105,13 @@ public class WALKAUTOWOW : MonoBehaviour
             {
                 newPosX = -41 + xOffset;  // Smoothly move right from the middle
                 m_Side = SIDE.Right;
-                Debug.Log("SIDE RIGHT: Current Position: " + transform.position + " newPosX: " + newPosX);
+                
             }
             else if (m_Side == SIDE.Left)
             {
                 newPosX = -41;  // Move back to middle (Mid)
                 m_Side = SIDE.Mid;
-                Debug.Log("SIDE MID: Current Position: " + transform.position + " newPosX: " + newPosX);
+                
             }
 
             nextTimeToStrafe = Time.time + strafeRate;

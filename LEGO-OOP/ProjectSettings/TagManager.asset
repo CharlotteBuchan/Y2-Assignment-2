@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Projectile
   - TutorialRequirement
+  - Face
+  - LeftHand
+  - RightHand
+  - Obstacle
   layers:
   - Default
   - TransparentFX

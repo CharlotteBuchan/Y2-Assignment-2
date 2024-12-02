@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8657211003174660626}
   - component: {fileID: 7045968792858744189}
+  - component: {fileID: 4171428169658982773}
   m_Layer: 0
   m_Name: P_fwOF_Stone_01
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,6 +53,28 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2814014350804778388}
   m_Enabled: 1
+--- !u!64 &4171428169658982773
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6995143996422936259}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3239052621189652912, guid: 3d9b1698010f14242b5d3e1a14661c8b, type: 3}
 --- !u!1 &7534817577271897872
 GameObject:
   m_ObjectHideFlags: 0
