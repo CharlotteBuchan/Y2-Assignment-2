@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 16.529, y: 16.529, z: 16.529}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8626804289548340732}
@@ -72,7 +72,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3239052621189652912, guid: 3d9b1698010f14242b5d3e1a14661c8b, type: 3}
 --- !u!1 &7534817577271897872
