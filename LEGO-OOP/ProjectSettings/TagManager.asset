@@ -10,6 +10,7 @@ TagManager:
   - LeftHand
   - RightHand
   - Obstacle
+  - WALL
   layers:
   - Default
   - TransparentFX
